@@ -18,6 +18,31 @@ Vue.use(GoogleAPIs, {
 
 ```
 
+In your component 
+
+
+```javascript
+// src/App.vue
+
+computed: {
+    ...mapGetters('gauth',{
+      gauthReady: 'isReady',
+      isSignedIn: 'isSignedIn',
+      user: 'getUser'
+    }),
+  },
+  mounted() {
+    this.$store.dispatch('gauth/init')
+  },
+  methods: {
+    ...mapActions('gauth',{
+      signIn: 'signIn',
+      signOut: 'signOut',
+      disconnect: 'disconnect'
+    })
+  }
+```
+
 ## Run
 
 `npm run serve`
