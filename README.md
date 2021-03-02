@@ -17,7 +17,7 @@ In this basic example you will see how to use the library in a single component 
 
 ## Vuex example
 
-https://github.com/ql4b/vue-googleapis-examples/tree/master/auth-basic
+https://github.com/ql4b/vue-googleapis-examples/tree/master/auth-vuex
 
 In the Vuex example you will see how a simple `vuex store module` can be used to manage authentication state and actions. 
 
