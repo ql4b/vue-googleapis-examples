@@ -5,7 +5,7 @@ This repository holds various examples of usage of the [vue-googleapis](https://
 # Authentication
 
 There are two examples of how to add google authentication to your Vuejs site.
-Both examples does not involve using a backend and everything is done between your frontend and the Google baakend. 
+Both examples does not involve using a backend and everything is done between your frontend and the Google backend. 
 
 Please make sure you understand how `OAuth2` works, here is some [good documention](https://developers.google.com/identity/protocols/oauth2) from Google
 
@@ -27,7 +27,7 @@ In the Vuex example you will see how a simple `vuex store module` can be used to
 
 https://github.com/ql4b/vue-googleapis-examples/tree/master/youtube-data
 
-Here you can see how authenticate the use and let him/her access his/her own YouTube data on in your app
+Here you can see how authenticate the user and let him/her access his/her own YouTube data on in your app
 
 
 
