@@ -27,7 +27,7 @@ In the Vuex example you will see how a simple `vuex store module` can be used to
 
 https://github.com/ql4b/vue-googleapis-examples/tree/master/youtube-data
 
-Here you can see how authenticate the use and let him/her access his/her own YouTube data on in your app
+Here you can see how authenticate the user and let him/her access his/her own YouTube data on in your app
 
 
 
