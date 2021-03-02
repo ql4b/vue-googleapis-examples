@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">    
+    <h1>Google APIs example - oAuth2 (vuex)</h1>
     <p>isReady: {{ gauthReady }}</p>
     <p>isSignedIn: {{ isSignedIn }}</p>
     <p v-if="isSignedIn">{{ user.getBasicProfile().getName() }}</p>
