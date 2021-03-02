@@ -21,5 +21,15 @@ https://github.com/ql4b/vue-googleapis-examples/tree/master/auth-vuex
 
 In the Vuex example you will see how a simple `vuex store module` can be used to manage authentication state and actions. 
 
+# Using APIs
+
+## YouTube Data API example
+
+https://github.com/ql4b/vue-googleapis-examples/tree/master/youtube-data
+
+Here you can see how authenticate the use and let him/her access his/her own YouTube data on in your app
+
+
+
 
 
